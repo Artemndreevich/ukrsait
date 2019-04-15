@@ -9,6 +9,7 @@ body{
     width: 100%;
     margin:0;
     padding: 0;
+    z-index: 5;
     background-color: antiquewhite;
 }
 #mark{
@@ -37,4 +38,11 @@ body{
     background-color: #fff9ea;
     transform: translateY(1vh);
 
+}
+#header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: aquamarine;
+    z-index: 1;
 }
