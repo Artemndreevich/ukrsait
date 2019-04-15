@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#menu{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+#mark{
+    margin:0;
+    padding: 0;
+
+}
+#mark li{
+    margin:0;
+    padding: 0;
+    display: inline-block;
+}
+#mark li a {
+    display: block;
+  padding:0.4vw;
+  opacity: 0.7;
+     transition: 1s;
+    text-decoration: none;
+    color: black;
+}
+#mark li a:hover {
+    display: block;
+    padding:0.4vw;
+    opacity: 1;
+    transition: 1s;
+    background-color: #fff9ea;
+    transform: translateY(1vh);
+
+}
