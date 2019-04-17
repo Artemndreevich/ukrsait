@@ -43,6 +43,78 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: aquamarine;
-    z-index: 1;
+    background-image: url(16932341.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-color: #f8f3df;
+    z-index:1;
 }
+#header p {
+    margin-top: 17%;
+    margin-left: 20%;
+    max-width: 60%;
+    position: absolute;
+    padding: 2vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    font-size: 2.4vw;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.85);
+
+
+}
+/*@keyframes header_animation {*/
+/*    from{*/
+/*        margin-top: 17%;*/
+/*        margin-left: 20%;*/
+/*        position: absolute;*/
+/*        padding: 2vw;*/
+/*        padding-top: 4vw;*/
+/*        padding-bottom: 4vw;*/
+/*        border-radius: 5px;*/
+/*        background-color: rgba(255,255,255,0.85);*/
+/*        height: 0;*/
+/*        width: 0;*/
+/*        display: none;*/
+/*    }*/
+/*    33%{*/
+/*        margin-top: 17%;*/
+/*        margin-left: 20%;*/
+/*        position: absolute;*/
+/*        padding: 2vw;*/
+/*        padding-top: 4vw;*/
+/*        padding-bottom: 4vw;*/
+/*        border-radius: 5px;*/
+/*        background-color: rgba(255,255,255,0.85);*/
+/*        height: auto;*/
+/*        width: 0;*/
+/*        display: block;*/
+
+/*    }*/
+/*    66%{*/
+/*        margin-top: 17%;*/
+/*        margin-left: 20%;*/
+/*        position: absolute;*/
+/*        padding: 2vw;*/
+/*        padding-top: 4vw;*/
+/*        padding-bottom: 4vw;*/
+/*        border-radius: 5px;*/
+/*        background-color: rgba(255,255,255,0.85);*/
+/*        height: auto;*/
+/*        width: auto;*/
+/*    }*/
+/*    75%{*/
+
+/*    }*/
+/*    to{*/
+/*        color: black;*/
+/*        margin-top: 17%;*/
+/*        margin-left: 20%;*/
+/*        position: absolute;*/
+/*        padding: 2vw;*/
+/*        padding-top: 4vw;*/
+/*        padding-bottom: 4vw;*/
+/*        border-radius: 5px;*/
+/*        background-color: rgba(255,255,255,0.85);*/
+/*    }*/
+/*}*/
