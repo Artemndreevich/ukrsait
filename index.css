@@ -52,8 +52,12 @@ body{
     z-index:1;
 
 }
-
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url(16156.otf); /* Путь к файлу со шрифтом */
+}
 #header p {
+    font-family:Pompadur ;
     margin-top: 17%;
     margin-left: 20%;
     max-width: 60%;
@@ -90,19 +94,49 @@ from{
 }
 #main {
     width:100%;
+    position: relative;
+    display: block;
 }
 #footer {
      width:100%;
      background-color: blue;
- }
-#main div{
-    width: 100%;
-    padding:0.4vw;
+    position: relative;
+
+}
+#main> div{
+    width: 98%;
+    padding:0.7vw;
 }
 #table_main{
     border:none;
 
 }
-№table_main tr th{
+#table_main tr th{
     font-style: italic;
+    font-family:Pompadur ;
+    FONT-Size: 2vw;
+
+}
+.mainfive{
+    width: 49%;
+    display: block;
+    float: left;
+
+}
+#mmain1{
+    width: 100%;
+    position: relative;
+}
+.ul_five {
+
+}
+.ul_five li  {
+    font-family:Pompadur ;
+    font-size: 1.6vw;
+    list-style-type: circle;
+}
+.h2_cent{
+    text-align: center;
+    font-family:Pompadur ;
+    font-size:3vw;
 }
